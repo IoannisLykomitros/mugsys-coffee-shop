@@ -7,7 +7,7 @@ const Menu = () => {
   const filteredItems = MENU_ITEMS.filter(item => item.category === activeCategory);
 
   return (
-    <section id="menu" className="py-24 bg-stone-50">
+    <section id="menu" className="py-30 bg-stone-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="text-center mb-16">

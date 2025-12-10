@@ -6,3 +6,7 @@
     --color-mugsy-blue: #1B3B6F; 
     --color-mugsy-light: #F5F5F4;
 }
+
+html {
+  scroll-behavior: smooth;
+}

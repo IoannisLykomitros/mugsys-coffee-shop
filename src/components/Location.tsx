@@ -2,7 +2,7 @@ import { MapPin, Clock, Phone, Navigation } from 'lucide-react';
 
 const Location = () => {
   return (
-    <section id="location" className="py-20 bg-white relative overflow-hidden">
+    <section id="location" className="py-30 bg-white relative overflow-hidden">
       
       <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-blue-50 rounded-full blur-3xl opacity-50 pointer-events-none"></div>
       <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-72 h-72 bg-amber-50 rounded-full blur-3xl opacity-50 pointer-events-none"></div>

@@ -1,4 +1,4 @@
-import { Instagram, ArrowUp, ExternalLink } from 'lucide-react';
+import { Instagram, ArrowUp } from 'lucide-react';
 import EfoodLogo from '../assets/efood-logo.png';
 import WoltLogo from '../assets/wolt-logo.png';
 

@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+@theme {
+    --font-logo: "Titan One", sans-serif;
+}

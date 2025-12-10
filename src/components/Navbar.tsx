@@ -13,7 +13,7 @@ const Navbar = () => {
           
           <div className="flex-shrink-0 flex items-center gap-2">
             <img src={MugsysLogo} alt="Mugsys Logo" className="h-22 w-22" />
-            <span className="font-logo text-3xl text-blue-950 tracking-tight uppercase ">
+            <span className="font-logo text-3xl ml-2 text-blue-950 tracking-tight uppercase ">
               Mugsy's
             </span>
           </div>
@@ -21,9 +21,9 @@ const Navbar = () => {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               <a href="#home" className="hover:text-blue-700 text-blue-950 px-3 py-2 rounded-md text-2xl font-medium transition-colors">Home</a>
-              <a href="#menu" className="hover:text-blue-950 text-blue-950 px-3 py-2 rounded-md text-2xl font-medium transition-colors">Menu</a>
-              <a href="#about" className="hover:text-blue-950 text-blue-950 px-3 py-2 rounded-md text-2xl font-medium transition-colors">About</a>
-              <a href="#location" className="hover:text-blue-950 text-blue-950 px-3 py-2 rounded-md text-2xl font-medium transition-colors">Visit Us</a>
+              <a href="#menu" className="hover:text-blue-700 text-blue-950 px-3 py-2 rounded-md text-2xl font-medium transition-colors">Menu</a>
+              <a href="#about" className="hover:text-blue-700 text-blue-950 px-3 py-2 rounded-md text-2xl font-medium transition-colors">About</a>
+              <a href="#location" className="hover:text-blue-700 text-blue-950 px-3 py-2 rounded-md text-2xl font-medium transition-colors">Visit Us</a>
             </div>
           </div>
 

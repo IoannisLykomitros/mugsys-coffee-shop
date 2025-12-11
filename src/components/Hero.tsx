@@ -1,5 +1,5 @@
 import { ArrowRight, MapPin } from 'lucide-react';
-import MugsysHero from '../assets/mugsys-hero.png';
+import MugsysHero from '../assets/mugsys-hero.webp';
 
 const Hero = () => {
   return (

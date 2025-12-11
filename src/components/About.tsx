@@ -52,7 +52,7 @@ const About = () => {
                         <Star key={i} className="w-4 h-4 fill-current" />
                       ))}
                     </div>
-                    <span className="text-xs font-bold text-stone-400 uppercase tracking-wide">
+                    <span className="font-body text-xs font-bold text-stone-400 uppercase tracking-wide">
                       Google Review
                     </span>
                   </div>
@@ -62,10 +62,10 @@ const About = () => {
                   </p>
                   
                   <div className="flex items-center gap-3">
-                    <div className="bg-blue-100 text-mugsy-blue w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">
+                    <div className="bg-blue-100 text-mugsy-blue w-8 h-8 rounded-full flex items-center justify-center font-body font-bold text-sm">
                       {review.name.charAt(0)}
                     </div>
-                    <span className="font-bold text-stone-900 text-sm">
+                    <span className="font-body font-bold text-stone-900 text-sm">
                       {review.name}
                     </span>
                   </div>

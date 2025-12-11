@@ -93,7 +93,7 @@ const Location = () => {
               allowFullScreen={true} 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"
-              className="w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500"
+              className="w-full h-full grayscale-0 group-hover:grayscale-0 transition-all duration-500 md:grayscale"
             ></iframe>
             
             <div className="absolute bottom-4 right-4 bg-white/90 backdrop-blur px-4 py-2 rounded-lg text-xs font-bold text-stone-500 shadow-sm pointer-events-none">

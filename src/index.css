@@ -2,9 +2,14 @@
 
 @theme {
     --font-logo: "Titan One", sans-serif;
+    --font-body: "Inter", sans-serif;
 
     --color-mugsy-blue: #1B3B6F; 
     --color-mugsy-light: #F5F5F4;
+}
+
+p, a, li, h3 {
+  font-family: 'Inter', sans-serif;
 }
 
 html {

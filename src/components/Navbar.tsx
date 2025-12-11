@@ -13,7 +13,7 @@ const Navbar = () => {
           
           <div className="flex-shrink-0 flex items-center gap-2">
             <img src={MugsysLogo} alt="Mugsys Logo" className="h-22 w-22" />
-            <span className="font-logo text-3xl ml-2 text-blue-950 tracking-tight uppercase ">
+            <span className="font-logo text-4xl ml-2 text-blue-950 tracking-tight uppercase ">
               Mugsy's
             </span>
           </div>

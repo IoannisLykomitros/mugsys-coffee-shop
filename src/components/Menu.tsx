@@ -24,7 +24,7 @@ const Menu = () => {
             <button
               key={cat.id}
               onClick={() => setActiveCategory(cat.id)}
-              className={`px-8 py-3 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 ${
+              className={`px-8 py-3 rounded-full font-bold text-lg transition-all duration-300 cursor-pointer transform hover:scale-105 ${
                 activeCategory === cat.id
                   ? 'bg-mugsy-blue text-white shadow-lg shadow-blue-900/20'
                   : 'bg-white text-stone-500 hover:text-mugsy-blue hover:bg-white border-2 border-stone-100'
